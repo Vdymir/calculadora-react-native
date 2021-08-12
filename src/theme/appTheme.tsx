@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
     resultado: {
         color: 'white',
         fontSize: 60,
-        textAlign:"right"
+        textAlign:"right",
+        marginBottom: 10,
     },
     resultadoAnt: {
         color: 'white',
@@ -21,19 +22,11 @@ const styles = StyleSheet.create({
         textAlign:"right",
         opacity: .8
     },
-    boton: {
-        width: 80,
-        height: 80,
-        borderRadius: 100,
-        backgroundColor: '#9b9b9b',
-        justifyContent: 'center'
-    },
-    botonText: {
-        color: 'black',
-        textAlign: 'center',
-        padding: 10,
-        fontSize: 30,
-        fontWeight: 'bold'
+    rows: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: 18,
+        paddingHorizontal: 10,
     }
 });
 
